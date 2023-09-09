@@ -94,7 +94,7 @@ def getdata(request):
         serialized_entries = [{'works': entry.works} for entry in entries]
         return Response(serialized_entries)
     else:
-        return Response({'message','user not authenticated'})
+        return Response({'message':'user not authenticated'})
         
     
             
