@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'TODO',
-        'USER': 'postgres',
-        'PASSWORD': '2002',
-        'HOST': 'https://vercel.com',  # Set to the appropriate host if not running locally
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'FKGN1ZqrTWn5',
+        'HOST': 'hep-withered-sound-41692487-pooler.us-east-1.postgres.vercel-storage.com',  # Set to the appropriate host if not running locally
         'PORT': '5432',      # Default PostgreSQL port
     }
 }
