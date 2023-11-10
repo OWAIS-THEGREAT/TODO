@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'POSTGRES_DATABASE': 'verceldb',
+        'NAME': 'verceldb',
         'POSTGRES_USER': 'default',
         'POSTGRES_PASSWORD': 'FKGN1ZqrTWn5',
         'POSTGRES_HOST': 'hep-withered-sound-41692487-pooler.us-east-1.postgres.vercel-storage.com',
