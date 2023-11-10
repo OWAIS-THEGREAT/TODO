@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'TODO',
         'USER': 'postgres',
         'PASSWORD': '2002',
-        'HOST': '.vercel.app',  # Set to the appropriate host if not running locally
+        'HOST': 'https://vercel.com',  # Set to the appropriate host if not running locally
         'PORT': '5432',      # Default PostgreSQL port
     }
 }
