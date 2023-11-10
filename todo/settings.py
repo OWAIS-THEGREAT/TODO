@@ -82,8 +82,11 @@ DATABASES = {
         'NAME': 'verceldb',
         'USER': 'default',
         'PASSWORD': 'FKGN1ZqrTWn5',
-        'HOST': 'hep-withered-sound-41692487-pooler.us-east-1.postgres.vercel-storage.com',  # Set to the appropriate host if not running locally
-        'PORT': '5432',      # Default PostgreSQL port
+        'HOST': 'hep-withered-sound-41692487-pooler.us-east-1.postgres.vercel-storage.com',
+        'PORT': '5432',
+        'OPTIONS': {
+            'sslmode': 'require',
+        },      # Default PostgreSQL port
     }
 }
 
