@@ -21,5 +21,5 @@ class Migration(migrations.Migration):
                 ('word', models.CharField(blank=True, max_length=50)),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
-        ),
+        )
     ]
